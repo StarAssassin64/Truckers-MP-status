@@ -1,14 +1,17 @@
 {
   "dependencies": {
-    "discord.js": "^14.8.0"
+    "@discordjs/rest": "^1.6.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.37",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3"
   },
   "name": "truckers-mp-status",
   "description": "***Made with JS***",
   "version": "0.0.1",
-  "main": "app.js",
-  "devDependencies": {},
+  "main": "src/bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ."
   },
   "repository": {
     "type": "git",
